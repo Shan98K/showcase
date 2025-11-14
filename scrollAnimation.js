@@ -2,7 +2,7 @@
 window.history.scrollRestoration = "manual";
 window.scrollTo(0, 0);
 
-document.querySelectorAll("section, footer, .project-item, .service-item, .skill").forEach(el => {
+document.querySelectorAll("section, .project-item, .service-item, .skill").forEach(el => {
     el.classList.add("hidden-scroll");
 });
 
@@ -19,6 +19,6 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 // Apply observer to elements
-document.querySelectorAll("section, footer, .project-item, .service-item, .skill").forEach(el => {
+document.querySelectorAll("section, .project-item, .service-item, .skill").forEach(el => {
     observer.observe(el);
 });
