@@ -15,8 +15,8 @@ const techIcons = {
 // Format tech name
 function formatTechName(key) {
     const mapCustom = {
-        "js": "Java Script",
-        "javascript": "Java Script",
+        "js": "JavaScript",
+        "javascript": "JavaScript",
         "node": "Node.js"
     };
     if (mapCustom[key]) return mapCustom[key];
