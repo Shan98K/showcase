@@ -1,10 +1,10 @@
 const techIcons = {
     "html": "./img/html.png",
     "css": "./img/css.png",
-    "javascript": "./img/javascript.png",
-    "js": "./img/javascript.png",
+    "javascript": "./img/javaScript.png",
+    "js": "./img/javaScript.png",
     "react": "./img/react.png",
-    "react native": "./img/react native.png",
+    "react native": "./img/reactNative.png",
     "expo": "./img/expo.png",
     "tailwind": "./img/tailwind.png",
     "bootstrap": "./img/bootstrap.png",
